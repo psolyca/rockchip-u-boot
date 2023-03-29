@@ -30,6 +30,7 @@ dtb-$(CONFIG_EXYNOS7420) += exynos7420-espresso7420.dtb
 dtb-$(CONFIG_ARCH_ROCKCHIP) += \
 	rk3036-sdk.dtb \
 	rk3066a-mk808.dtb \
+	rk3126-d102.dtb \
 	rk3126-evb.dtb \
 	rk3128-evb.dtb \
 	rk3188-radxarock.dtb \
