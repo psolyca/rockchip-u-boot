@@ -825,6 +825,8 @@ LDFLAGS_u-boot += $(LDFLAGS_FINAL)
 # Avoid 'Not enough room for program headers' error on binutils 2.28 onwards.
 LDFLAGS_u-boot += $(call ld-option, --no-dynamic-linker)
 
+LDFLAGS_u-boot += -z notext $(call ld-option, --apply-dynamic-relocs)
+
 ifneq ($(CONFIG_SYS_TEXT_BASE),)
 LDFLAGS_u-boot += -Ttext $(CONFIG_SYS_TEXT_BASE)
 endif
