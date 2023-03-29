@@ -67,6 +67,8 @@
 
 #define ENTRY_ALIGN         (2048)
 
+typedef unsigned long ulong;
+
 enum {
 	BL30_SEC = 0,
 	BL31_SEC,

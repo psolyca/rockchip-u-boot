@@ -28,7 +28,7 @@ extern bool gDebug;
 extern char gEat[MAX_LINE_LEN];
 
 typedef char line_t[MAX_LINE_LEN];
-
+typedef unsigned long ulong;
 
 
 #define DEF_CONFIG_FILE     "CONFIG.ini"
